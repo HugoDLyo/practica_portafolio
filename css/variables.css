@@ -1,0 +1,22 @@
+:root
+{
+    /* FUENTES */
+    --fontBase: 'Crimson Pro', serif;
+    --headLine1: 700 95px/154px var(--fontBase);
+    --headLine2: 700 59px/95px var(--fontBase);
+    --headLine3: 700 48px/77px var(--fontBase);
+    --headLine4: 400 34px/55px var(--fontBase);
+    --headLine4_5: 700 32px/55px var(--fontBase);
+    --headLine5: 700 24px/38px var(--fontBase);
+    --body1: 400 16px/25px var(--fontBase);
+    --body2: 400 14px/22px var(--fontBase);
+    --button: 700 14px/22px var(--fontBase);
+    --caption: 400 12px/19px var(--fontBase);
+    /* COLORES */
+    /* --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%); */
+    --gradient: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    --first: #750D37;
+    --second: #008080;
+    --third: #858c94;
+    --white: #fff;
+}

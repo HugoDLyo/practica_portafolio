@@ -1,0 +1,16 @@
+.logo
+{
+    font: var(--headLine5);
+    color: (--first);
+}
+
+.logo p
+{
+    margin: 0;
+}
+
+.logo span
+{
+    opacity: .5;
+    font-size: 22px;
+}

@@ -1,0 +1,16 @@
+.slogan
+{
+    text-align: center;
+    font: var(--headLine4);
+}
+
+.slogan p:nth-child(2) 
+{
+    font: var(--headLine5);
+}
+
+.slogan img
+{
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,17 @@
+.header
+{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-box-shadow: -1px 15px 15px -9px rgba(0,0,0,0.85); 
+    box-shadow: -1px 15px 15px -9px rgba(0,0,0,0.85);
+    z-index: 1;
+}
+
+.header__content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+}

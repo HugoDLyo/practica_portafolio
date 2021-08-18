@@ -1,0 +1,36 @@
+.button
+{
+    background-color: var(--first);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button.btx
+{
+    background: unset;
+    color: var(--first);
+    border: 2px solid var(--first);
+}
+
+.button-icon
+{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--white);
+    border: 2px solid var(--first);
+    display: inline-block;
+}
+
+.button-icon img 
+{
+    vertical-align: middle;
+}
