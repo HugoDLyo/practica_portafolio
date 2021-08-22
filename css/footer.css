@@ -17,11 +17,17 @@ footer
 {
     justify-content: center;
     padding-block-end: 0;
+    padding-block-start: 20px;
 }
 
 .footer__copy 
 {
     color: var(--white);
+}
+
+.footer__copy p:last-child
+{
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -38,6 +44,7 @@ footer
     .footer__content .social {
         order: 3;
         padding-block-end: 0;
+        padding-block-start: 0;
     }
 }
 
@@ -50,5 +57,9 @@ footer
     .footer__copy {
         display: flex;
         gap: 4px;
+    }
+    
+    .footer__copy p:last-child {
+        margin-bottom: 16px;
     }
 }
